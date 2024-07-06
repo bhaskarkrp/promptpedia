@@ -1,7 +1,8 @@
+import Loader from "@components/Loader";
 import Nav from "@components/Nav";
 import Provider from "@components/Provider";
 import "@styles/globals.css";
-import { ReactNode } from "react";
+import { ReactNode, Suspense } from "react";
 
 export const metadata = {
   title: "Promptpedia",
@@ -13,13 +14,15 @@ const RootLayout = ({ children }: { children: ReactNode }) => {
     <html lang="en">
       <body>
         <Provider>
-          <div className="main">
-            <div className="gradient" />
+          <div className="main" key="main">
+            <div className="gradient" key="gradient" />
           </div>
 
-          <main className="app">
-            <Nav />
-            {children}
+          <main className="app" key="app">
+            <Suspense fallback={<Loader />}>
+              <Nav key="nav" />
+              {children}
+            </Suspense>
           </main>
         </Provider>
       </body>

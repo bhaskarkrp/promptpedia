@@ -7,8 +7,8 @@ const Provider = ({
   children,
   session,
 }: {
-  children: ReactNode;
-  session: any;
+  children?: ReactNode;
+  session?: any;
 }) => {
   return <SessionProvider session={session}>{children}</SessionProvider>;
 };

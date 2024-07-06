@@ -34,8 +34,6 @@ const Feed = () => {
   const [prompts, setPrompts] = useState<PromptDetails[]>();
   const [isLoading, setIsLoading] = useState<boolean>(true);
 
-  console.log({ isLoading });
-
   const loadedPrompts = useRef<PromptDetails[]>();
 
   useEffect(() => {

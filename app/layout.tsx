@@ -12,6 +12,9 @@ export const metadata = {
 const RootLayout = ({ children }: { children: ReactNode }) => {
   return (
     <html lang="en">
+      <head>
+        <link rel="shortcut icon" href="/assets/images/logo.svg" />
+      </head>
       <body>
         <Provider>
           <div className="main" key="main">

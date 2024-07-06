@@ -30,7 +30,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 <h2>Quick view of the project:</h2>
 1. The Landing Page
 <p></p>
-<img src="[https://github.com/bhaskarkrp/promptpedia/blob/main/my-app/Pics/LandingPage.png](https://github.com/bhaskarkrp/promptpedia/blob/main/public/assets/screenshots/landingPage.png)" />
+<img src="https://github.com/bhaskarkrp/promptpedia/blob/main/public/assets/screenshots/landingPage.png" />
 
 
 2. Others Profile Page
@@ -39,4 +39,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 3. Personal Profile Page
 <br>
-<img src="[https://github.com/bhaskarkrp/promptpedia/blob/main/public/assets/screenshots/OthersProfileView.png](https://github.com/bhaskarkrp/promptpedia/blob/main/public/assets/screenshots/PersonalProfileView.png)" />
+<img src="https://github.com/bhaskarkrp/promptpedia/blob/main/public/assets/screenshots/PersonalProfileView.png" />

@@ -8,7 +8,7 @@ const Home = () => {
 
   useEffect(() => {
     router.push("/landing");
-  }, []);
+  }, [router]);
 
   return <></>;
 };

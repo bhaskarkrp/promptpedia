@@ -38,7 +38,7 @@ const Nav = () => {
     if (!session?.user?.id) {
       router.push("/");
     }
-  }, [session?.user?.id]);
+  }, [session?.user?.id, router]);
 
   return (
     <nav className="flex w-full mb-16 pt-3 justify-between">

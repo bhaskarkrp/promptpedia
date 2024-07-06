@@ -21,7 +21,7 @@ const Profile = ({
           <h3>
             Oh ho, You have not posted anything yet. <br /> <br />
             <span className="text-lg">
-              Let's write some thing for modern world to discover, create.
+              Let&apos;s write some thing for modern world to discover, create.
             </span>
           </h3>
         </div>
